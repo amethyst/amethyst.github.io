@@ -27,10 +27,8 @@ Content                              | Source Path               | Website Path
 Main Content                         | `src/`                    | `/`
 Newsletter (*This Week In Amethyst*) | `src/posts/`             | `/posts/`
 Amethyst Book                        | [`amethyst/book/src`][bs] | `/book/`
-Generated API Documentation          | [`amethyst/src/`][ds]     | `/doc/`
 
 [bs]: https://github.com/ebkalderon/amethyst/tree/master/book/src
-[ds]: https://github.com/ebkalderon/amethyst/tree/master/src
 
 ## Building Locally
 
