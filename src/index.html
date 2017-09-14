@@ -6,7 +6,6 @@ pre_contained: >
             <h1 class="ui inverted center aligned header">
                 Amethyst is a data-oriented game engine.
             </h1>
-            
             <div class="ui center aligned grid" style="margin-top:20px;margin-right:0 !important;margin-left:0 !important;">
                 <a class="ui wireframe column" href="/book/master/html/index.html">
                     <div class="ui inverted center aligned header">Learn</div>
@@ -31,7 +30,7 @@ pre_contained: >
                 <div class="three wide column">
                     <img class="ui small centered image" src="/assets/rust-logo.png" />
                     <div class="ui large header">For Performance</div>
-                    Written entirely in Rust so it can utilize multithreading to its fullest. 
+                    Written entirely in Rust so it can utilize multithreading to its fullest.
                 </div>
 
                 <div class="three wide column">
@@ -60,8 +59,8 @@ pre_contained: >
                         <div class="date description">
                             Published
 
-                            {% assign d = post.date | date: "%-d" %} 
-                            {% assign m = post.date | date: "%B" %} 
+                            {% assign d = post.date | date: "%-d" %}
+                            {% assign m = post.date | date: "%B" %}
 
                             {% case m %}
                                 {% when 'April' or 'May' or 'June' or 'July' %}{{ m }}
@@ -73,7 +72,7 @@ pre_contained: >
                                 {% when '2' or '22' %}{{ d }}nd
                                 {% when '3' or '23' %}{{ d }}rd
                                 {% else %}{{ d }}th
-                                {% endcase %}, 
+                                {% endcase %},
                             {{ post.date | date: "%Y" }}
                         </div>
                         {% if post.small %}
