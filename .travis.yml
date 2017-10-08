@@ -19,6 +19,7 @@ addons:
 before_install:
     - gem install jekyll
     - gem install jekyll-feed
+    - cargo install ghp
 
 script:
     - ./generate.sh
@@ -27,11 +28,11 @@ script:
 after_success: |
     [ $TRAVIS_BRANCH = master ] &&
     [ $TRAVIS_PULL_REQUEST = false ] &&
-    sudo pip install ghp-import &&
-    ghp-import -n build/ &&
+    ghp build &&
     git config user.name "Travis CI Worker" &&
     git config user.email "name@example.com" &&
-    git push -fq https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git gh-pages
+    git remote add deploy https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git &&
+    git push -fq deploy gh-pages
 
 notifications:
     webhooks:
