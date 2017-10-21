@@ -3,7 +3,7 @@
 # Rebuilds the website, blog, book, and API documentation from scratch.
 
 branches=( master develop )
-crates=( amethyst amethyst_config amethyst_renderer amethyst_assets amethyst_input )
+crates=( amethyst amethyst_assets amethyst_audio amethyst_config amethyst_core amethyst_gltf amethyst_input amethyst_renderer amethyst_utils )
 doc="cargo doc --no-deps"
 
 # Create cargo doc command
