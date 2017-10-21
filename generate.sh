@@ -3,7 +3,6 @@
 # Rebuilds the website, blog, book, and API documentation from scratch.
 
 branches=( master develop )
-doc="cargo doc --all --no-deps"
 
 echo "Cleaning up workspace..."
 rm -rf build src/book/ src/doc/
@@ -38,7 +37,7 @@ do
       cd src/amethyst/${branches[$i]}
     fi
 
-    $doc
+    cargo doc --all --no-deps;
 
     echo "Compiling '${branches[$i]}' branch book"
     mdbook build book
