@@ -1,18 +1,30 @@
 ---
 layout: default
+headers: >
+    <script type="text/javascript" src="/scripts/search.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("news_search").addEventListener("keydown", function(event) {
+            if (event.key === "Enter") {
+                filter();
+            }
+        });
+        document.getElementById("news_search_button").addEventListener("click", filter);
+    });
+    </script>
 ---
 <div class="ui vertical segment">
     <div class="ui menu">
         <div class="right menu">
             <div class="ui icon input">
-                <input class="post prompt" placeholder="Search" type="text">
-                <i class="search link icon"></i>
+                <input id="news_search" class="post prompt" placeholder="Search" type="text" action="filter">
+                <i id="news_search_button" class="search link icon"></i>
             </div>
         </div>
     </div>
 </div>
 <div class="ui vertical segment">
-    <div class="ui divided relaxed selection list">
+    <div id="news_posts" class="ui divided relaxed selection list">
         {% for post in site.posts %}
         <a class="item" href="{{ post.url }}">
             <div class="content" href="{{ post.url}}">
