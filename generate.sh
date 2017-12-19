@@ -49,8 +49,8 @@ do
     cp -r src/amethyst/${branches[$i]}/target/doc/ src/doc/${branches[$i]}/
 
     mkdir -p src/book/${branches[$i]}/
-    cp -r src/amethyst/${branches[$i]}/book/html/ src/book/${branches[$i]}/
-    cp -r src/amethyst/${branches[$i]}/book/images/ src/book/${branches[$i]}/html/
+    cp -r src/amethyst/${branches[$i]}/book/book/ src/book/${branches[$i]}/
+    cp -r src/amethyst/${branches[$i]}/book/images/ src/book/${branches[$i]}/book/
 
     # Create branch documentation pages.
     docs_branch ${branches[$i]} src/doc/${branches[$i]}.html
