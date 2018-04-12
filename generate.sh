@@ -50,7 +50,7 @@ do
 
     mkdir -p src/book/${branches[$i]}/
     mv -f src/amethyst/${branches[$i]}/book/book/ src/book/${branches[$i]}/
-    mv -f src/amethyst/${branches[$i]}/book/images/ src/book/${branches[$i]}/images/
+    mv -f src/amethyst/${branches[$i]}/book/images/ src/book/${branches[$i]}/
 
     # Create branch documentation pages.
     docs_branch ${branches[$i]} src/doc/${branches[$i]}.html
