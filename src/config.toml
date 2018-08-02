@@ -1,4 +1,4 @@
-base_url = "http://amethyst.scrumbles.uk"
+base_url = "http://www.amethyst.rs"
 title = "Amethyst"
 description = "Official website of the Amethyst game engine."
 compile_sass = true

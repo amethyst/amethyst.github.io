@@ -41,7 +41,7 @@ $ ./generate.sh
 ```
 
 However, this is a long process as it also generates documentation.
-If you only care about the website itself for tetsing purposes, do:
+If you only care about the website itself for testing purposes, do:
 
 ```
 $ ./quick_build.sh
