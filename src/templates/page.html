@@ -1,8 +1,18 @@
 {% extends "index.html" %}
 
 {% block title %}{{ config.title }} - {{ page.title }}{% endblock title %}
+{% block og_title %}{{ page.title }}{% endblock og_title %}
+
+{% block description %}{{ page.description }}{% endblock description %}
+{% block og_description %}{{ page.description }}{% endblock og_description %}
 
 {% block css %}/article.css{% endblock css %}
+
+{% block og_type %}article{% endblock og_type %}
+
+{% block additional_meta %}
+<meta property="article:published_time" content="{{ page.date }}" />
+{% endblock additional_meta %}
 
 {% block content %}
 <div id="content">
