@@ -101,5 +101,6 @@ do
     cd amethyst/master
 done
 
-echo "Cleaning up binaries"
-rm -r build/amethyst/
+# cd ../../
+# echo "Cleaning up binaries"
+# rm -rf build/amethyst/
