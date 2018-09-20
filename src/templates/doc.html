@@ -6,8 +6,8 @@
 
 {% block content %}
     <div id="content">
-        <div id="head">Blue pill or red pill?
-            <div id="head-desc">This webside provides documentation for both the master and develop branches. Unless you're comfortable with rapid and constant change, <b>we recommend using the master branch</b>.</div>
+        <div id="head">Documentation
+            <div id="head-desc">This webside provides documentation for the master branch of Amethyst.</div>
         </div>
         <div id="container">
             <div id="master">
@@ -28,25 +28,6 @@
                 <br>
                 <br>
                 <a href="{{ config.extra.crates_url }}" class="branch-desc master-link">Available from crates.io</a>
-            </div>
-            <div id="develop">
-                <div class="branch-title develop-title">develop</div>
-                <div class="branch-desc develop-title">Nightly changes for the bold.</div>
-                <br>
-                <br>
-                <a href="/book/develop" class="button button-develop">Book</a>
-                <br>
-                <br>
-                <br>
-                <a href="/doc/develop/doc/amethyst" class="button button-develop">API References</a>
-                <br>
-                <br>
-                <br>
-                <a href="{{ config.extra.github_url_develop_examples }}" class="button button-develop">Examples</a>
-                <br>
-                <br>
-                <br>
-                <a href="{{ config.extra.github_url }}" class="branch-desc develop-link">Available from the GitHub repository</a>
             </div>
         </div>
     </div>

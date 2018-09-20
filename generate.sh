@@ -2,7 +2,7 @@
 
 # Rebuilds the website, blog, book, and API documentation from scratch.
 
-branches=( master develop )
+branches=( master )
 gutenberg_release="v0.3.4/gutenberg-v0.3.4-x86_64-unknown-linux-gnu.tar.gz"
 
 echo "Cleaning up workspace..."

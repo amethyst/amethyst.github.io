@@ -50,7 +50,7 @@ making it easier to get started with amethyst.)
 
 ## Calls for participation
 
-* We could really use some help with getting our [tools repository](https://github.com/amethyst/tools) and [the book](https://github.com/amethyst/amethyst/tree/develop/book)
+* We could really use some help with getting our [tools repository](https://github.com/amethyst/tools) and [the book](https://github.com/amethyst/amethyst/tree/master/book)
 up to date, any help here would be greatly appreciated!
 
 [tc]: https://github.com/torkleyy

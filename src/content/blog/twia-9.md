@@ -34,7 +34,7 @@ to the point where we can finally ship some real working examples starting with
 the upcoming 0.4.0, including a simple version of [pong][po]! This means that
 the long-awaited ["pong clone" chapter][pc] will be added soon to the book!
 
-[po]: https://github.com/amethyst/amethyst/tree/develop/examples/04_pong
+[po]: https://github.com/amethyst/amethyst/tree/master/examples/04_pong
 [pc]: https://www.amethyst.rs/book/simple_application.html
 
 [Lukas Schmierer][ls] has created a set of performance benchmarks for popular
