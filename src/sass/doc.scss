@@ -33,7 +33,7 @@
     padding: 10px;
     padding-top: 20px;
     padding-bottom: 25px;
-    width: 100%;
+    width: 50%;
     border-radius: 10px 10px 10px 10px;
     text-align: center;
     /*box-shadow:
@@ -44,6 +44,11 @@
 #master {
     margin-right: 20px;
     background-color: $master-color;
+}
+
+#develop {
+  margin-left: 20px;
+  background-color: $develop-color;
 }
 
 .branch-title {
@@ -69,6 +74,26 @@
     text-decoration: none;
     border-radius: 10px 10px 10px 10px;
     margin-bottom: 20px;
+}
+
+.button-develop {
+  background-color: $develop-button-color;
+}
+
+.button-develop:hover {
+  background-color: $develop-button-hover-color;
+}
+
+.develop-title {
+  color: $develop-title-color;
+}
+
+.develop-link {
+  color: $develop-button-hover-color;
+}
+
+.develop-link:hover {
+  color: $develop-button-color;
 }
 
 .button-master {
