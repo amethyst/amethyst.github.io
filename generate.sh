@@ -35,7 +35,7 @@ cargo install-update -a;
 git clone https://github.com/amethyst/amethyst --branch master amethyst/master
 cd amethyst/master
 
-cargo doc --all --no-deps;
+cargo doc --all;
 
 echo "Compiling master branch book"
 mdbook build book
@@ -58,10 +58,10 @@ cp -r build/book/master build/book/develop
 cd amethyst/master
 LATEST_TAG=$(git describe --abbrev=0 --tags)
 
-echo "Checking out tag $LATEST_TAG to build latest docs and book"
+echo "Checking out tag $LATEST_TAG to build latest docs and bogok"
 git checkout -q $LATEST_TAG
 
-cargo doc --all --no-deps;
+cargo doc --all;
 
 echo "Compiling master branch book"
 mdbook build book
@@ -101,5 +101,5 @@ do
     cd amethyst/master
 done
 
-#echo "Cleaning up binaries"
-#rm -r build/amethyst/
+echo "Cleaning up binaries"
+rm -r build/amethyst/
