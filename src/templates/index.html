@@ -11,7 +11,7 @@
     <meta property="og:title" content="{% block og_title %}{{ config.title }}{% endblock og_title %}" />
     <meta property="og:description" content="{% block og_description %}{{ config.description }}{% endblock og_description %}">
     <meta property="og:type" content="{% block og_type %}website{% endblock og_type %}" />
-    <meta property="og:url" content="{{ current_url }}" />
+    {% block current_url %}<meta property="og:url" content="{{ current_url }}" />{% endblock current_url %}
     <meta property="og:image" content="{{ get_url(path="assets") }}amethyst.png" />
     <meta property="og:image:width" content="425">
     <meta property="og:image:height" content="425">
