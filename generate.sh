@@ -39,7 +39,6 @@ cargo doc --all;
 
 echo "Compiling master branch book"
 mdbook build book
-
 cd ../../
 
 echo "Moving '${branches[$i]}' branch documentation and book to /build/"
