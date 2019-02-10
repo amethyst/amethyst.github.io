@@ -1,0 +1,3 @@
++++
+template = "community-projects.html"
++++
