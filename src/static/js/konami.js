@@ -5,7 +5,7 @@ document.addEventListener("keydown", function(e) {
     if (sequence[position] == e.keyCode) {
         position++;
         if (position == sequence.length) {
-            window.location.href = "/garlic";
+            window.location.href = "/turbo-cool";
         }
     } else {
         position = 0;

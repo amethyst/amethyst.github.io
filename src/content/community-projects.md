@@ -1,3 +1,0 @@
-+++
-template = "community-projects.html"
-+++

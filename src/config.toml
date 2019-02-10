@@ -8,7 +8,7 @@ generate_rss = true
 
 [extra]
 latest_release_tag = "0.10.0"
-author = "Moxinilian (Théo Degioanni), Ellie Fagerberg, doomy (Alexander Lozada)"
+author = "doomy (Alexander Lozada), Ellie Fagerberg, happens (Hilmar Wiegand) 🎺, Moxinilian (Théo Degioanni)"
 website_version = "4.0"
 doc_path = "/doc"
 github_url = "https://github.com/amethyst/amethyst"
