@@ -20,5 +20,5 @@ Amethyst is open source and free software. You can use, read, modify, distribute
 {{ sponsor_list() }}
 
 {% feature(title="Get Started" logo="true" class="center") %}
-You can easily get started using [our book guide](http://localhost:1111/book/master) which goes through the basics of creating a game using Amethyst. If you need any help on the way, feel free to visit [our community forums](https://community.amethyst-engine.org/) and [our Discord server](https://discord.gg/amethyst)!
+You can easily get started using [our book guide](/book/master) which goes through the basics of creating a game using Amethyst. If you need any help on the way, feel free to visit [our community forums](https://community.amethyst-engine.org/) and [our Discord server](https://discord.gg/amethyst)!
 {% end %}
