@@ -7,7 +7,7 @@ highlight_theme = "monokai"
 generate_rss = true
 
 [extra]
-latest_release_tag = "0.10.0"
+latest_release_tag = "v0.10.0"
 author = "doomy (Alexander Lozada), Ellie Fagerberg, happens (Hilmar Wiegand) 🎺, Moxinilian (Théo Degioanni)"
 website_version = "4.0"
 doc_path = "/doc"
