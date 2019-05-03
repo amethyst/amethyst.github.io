@@ -40,15 +40,22 @@
 
     h1, h2, h3, h4, h5, h6 {
         padding: 3rem 0 .5rem 0;
+        text-align: left;
         margin: 0;
+
+        @include mobile {
+            padding: 3rem 2rem .5rem 2rem;
+            margin: 0 0 1rem 0;
+        }
     }
 
     ul, ol {
         padding: 0;
-        margin: 1rem 0 0 3rem;
+        margin: 1rem 0 1rem 4rem;
 
         @include mobile {
-            padding: 0 2rem;
+            padding: 0 3rem;
+            margin: 0 0 1rem 2rem;
         }
     }
 }
